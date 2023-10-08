@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Info from "../components/info.astro";
+---
+
+<Layout>
+  <div class="flex flex-col justify-start items-start py-24 px-2 gap-6">
+    <div class="flex justify-start gap-3">
+      <span class="text-3xl font-bold text-white bg-blue-300 rounded-full p-3"
+        >Noticias</span
+      >
+      <span class="text-3xl font-bold text-white bg-red-300 rounded-full p-3"
+        >Top</span
+      >
+      <span class="text-3xl font-bold text-white bg-green-300 rounded-full p-3"
+        >Mujeres</span
+      >
+    </div>
+
+    <h1 class="text-5xl text-slate-500 font-bold">
+      Top 3 Mujeres Mas Bellas Del Mundo
+    </h1>
+  </div>
+
+  <Info />
+</Layout>

@@ -1,0 +1,16 @@
+---
+import { infoVar, type InfoTop } from "../../variables/info";
+import Card from "./Card.astro";
+const items: InfoTop[] = infoVar;
+---
+
+<div class="flex flex-col gap-5 justify-center w-[75%] mx-auto p-5">
+  {
+    items.map((e) => {
+      return <Card item={e} />;
+    })
+  }
+  <!-- <Card />
+  <Card />
+  <Card /> -->
+</div>
