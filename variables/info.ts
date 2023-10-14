@@ -22,7 +22,7 @@ export const infoVar: InfoTop[] = [
   },
   {
     id: 1,
-    name: "Melani Boza",
+    name: "Ibied Herrera ",
     image: "../images/m1.jpg",
     text: "No hay nadie mas hermoso en este mundo que esta mujer, segun muchos expertos en belleza dicen que nunca habia visto a alguien tan hermosa como ella. Otras personas dicen que debido a su sonrisa, hace la vida mas bella. Ella es  una belleza perfecta, no hay nada que necesite sumar o restar. Pero yo digo que los destellos del atardecer son muy hermosos, pero no pueden compararse con el brillo de sus ojos.",
   },
