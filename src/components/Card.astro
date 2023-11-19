@@ -4,7 +4,13 @@ let item: InfoTop = Astro.props.item;
 ---
 
 <div class="flex-col gap-2 p-6 items-center justify-center bg-gray-100 rounded">
-  <img src={item.image} alt="" class="mx-auto rounded mb-9" />
+  <img
+    src={item.image}
+    alt=""
+    class="mx-auto rounded mb-9"
+    width="500px"
+    height="500px"
+  />
 
   <h2 class="text-3xl text-gray-600 font-bold mb-3">{item.id}- {item.name}</h2>
 
